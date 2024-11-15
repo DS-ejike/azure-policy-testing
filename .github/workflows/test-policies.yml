@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       remarks:
-        description: "Reason for triggering the workflow run"
+        description: "Reason for triggering run"
         required: false
         default: "Testing Azure Policies..."
 jobs:
